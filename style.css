@@ -1,0 +1,86 @@
+/* Resetando margens e paddings para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilo do header */
+.header {
+    background-color: #4CAF50;  /* Cor de fundo */
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo das seções principais */
+main {
+    margin-top: 40px;
+}
+
+/* Estilo da seção de conteúdo */
+.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo para a call-to-action (CTA) */
+.cta {
+    text-align: center;
+}
+
+.cta .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta .button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #777;
+}
