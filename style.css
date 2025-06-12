@@ -1,86 +1,57 @@
-/* Resetando margens e paddings para garantir consistência */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo geral do corpo */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
+    background: linear-gradient(to bottom, #006400, #9ACD32);
+    color: #000;
 }
 
-/* Estilo do header */
-.header {
-    background-color: #4CAF50;  /* Cor de fundo */
-    color: white;
-    padding: 30px;
+header {
+    background-color: #008000;
+    padding: 20px 0;
     text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+.titulo {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
 }
 
-.header p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
-/* Estilo das seções principais */
 main {
-    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
 }
 
-/* Estilo da seção de conteúdo */
-.content {
-    background-color: white;
+.imagem-topo {
+    max-width: 90%;
+    height: auto;
+    margin: 20px 0;
+    border: 2px solid #000;
+}
+
+.texto {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+    width: 80%;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    text-align: justify;
+    color: #003300;
+    font-size: 1em;
+    font-weight: bold;
 }
 
-.content h2 {
-    color: #4CAF50;
-    margin-bottom: 10px;
-}
-
-.content p {
-    font-size: 1.1rem;
-    margin-bottom: 20px;
-}
-
-/* Estilo para a call-to-action (CTA) */
-.cta {
-    text-align: center;
-}
-
-.cta .button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    transition: background-color 0.3s ease;
-}
-
-.cta .button:hover {
-    background-color: #45a049;
-}
-
-/* Estilo do rodapé */
 footer {
+    background-color: #8B4513;
     text-align: center;
-    margin-top: 40px;
-    font-size: 0.9rem;
-    color: #777;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
 }
